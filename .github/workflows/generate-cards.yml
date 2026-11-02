@@ -1,0 +1,48 @@
+name: 生成衍生字卡
+
+# 只在 GitHub 上手动触发或每周跑一次；本地不会执行这个文件。
+# 生成结果写进 generated.json，前端每次打开会 network-first 读取它。
+on:
+  workflow_dispatch:
+  schedule:
+    # 每周一 03:00 UTC（北京时间 11:00）
+    - cron: "0 3 * * 1"
+
+permissions:
+  contents: write   # 允许把 generated.json 提交回仓库
+  models: read      # 允许调用 GitHub Models
+
+concurrency:
+  group: generate-cards
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 生成 generated.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEN_MODEL: openai/gpt-4o-mini
+        run: |
+          python tools/gen_cards.py --engine auto --count 80 --merge
+
+      - name: 提交变化
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated.json
+          if git diff --cached --quiet; then
+            echo "generated.json 没有变化，跳过提交"
+          else
+            git commit -m "chore: 更新衍生字卡 generated.json"
+            git push
+          fi
