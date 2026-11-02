@@ -1,0 +1,646 @@
+{
+  "ver": "v20261031",
+  "updatedAt": "2026-10-31T11:12:39Z",
+  "engine": "rule",
+  "model": "",
+  "seedCount": 49,
+  "count": 60,
+  "cards": [
+    {
+      "id": "gen-538064508a",
+      "text": "刚吃完饭，在楼下走一圈，说真的",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "刚吃完饭，在楼下走一圈"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-f22b889e1a",
+      "text": "我今儿心情还不错",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "我今天心情还不错"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-a22676b92c",
+      "text": "你那边现在几点，而且刚刚看到一个很像你的背影",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "你那边现在几点",
+        "刚刚看到一个很像你的背影"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-057248ee63",
+      "text": "晚上风有些凉",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "晚上风有点凉"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-c20341db4c",
+      "text": "其实，你那边冷不冷",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "你那边冷不冷"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-0665dc8484",
+      "text": "今天想早点睡，有空一起去走走",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "今天想早点睡",
+        "有空一起去走走"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-dec1201f94",
+      "text": "下次见面想和你多待一会儿，还有你最近睡得好吗",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "下次见面想和你多待一会儿",
+        "你最近睡得好吗"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-45b8d8dea8",
+      "text": "早点休息，别熬夜，今天有点累，想早点躺下",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "早点休息，别熬夜",
+        "今天有点累，想早点躺下"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-f34e9a27ec",
+      "text": "说起来，想和你分享一件小事",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "想和你分享一件小事"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-ba2a05072b",
+      "text": "今天有点累，想早点躺下，其实你那边现在几点",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "今天有点累，想早点躺下",
+        "你那边现在几点"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-894a68e0db",
+      "text": "今儿忙到现在才停下来",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "今天忙到现在才停下来"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-ccf9f18d38",
+      "text": "你那边冷不冷，加上我今天心情还不错",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "你那边冷不冷",
+        "我今天心情还不错"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-c25f212f67",
+      "text": "想问你一个没什么要紧的问题，还有你吃饭了吗",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "想问你一个没什么要紧的问题",
+        "你吃饭了吗"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-f556b0bb9d",
+      "text": "明天见，顺便晚上风有点凉",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "明天见",
+        "晚上风有点凉"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-a8c5a8ecee",
+      "text": "我准备去泡杯茶，加上早点休息，别熬夜",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "我准备去泡杯茶",
+        "早点休息，别熬夜"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-75a3145868",
+      "text": "外面天已经黑了，等会儿要去买点东西",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "外面天已经黑了",
+        "等会儿要去买点东西"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-cfb43abdcd",
+      "text": "我把今儿的事记下来了",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "我把今天的事记下来了"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-bba0c67a2b",
+      "text": "等你有空再聊，而且下次见面想和你多待一会儿",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "等你有空再聊",
+        "下次见面想和你多待一会儿"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-193ed1cd94",
+      "text": "我记得你喜欢安静一点的地方，就这样",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "我记得你喜欢安静一点的地方"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-ff52123e5a",
+      "text": "今天想早点睡，其实今天听到一首很好听的歌",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "今天想早点睡",
+        "今天听到一首很好听的歌"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-48b1f49b10",
+      "text": "今天路上看到一棵开花的树，顺便想和你分享一件小事",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "今天路上看到一棵开花的树",
+        "想和你分享一件小事"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-631ad55d50",
+      "text": "外面天已经黑了，而且突然有点想吃你提过的那家店",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "外面天已经黑了",
+        "突然有点想吃你提过的那家店"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-9cfd658956",
+      "text": "早点休息，别熬夜，加上你忙你的，不用急着回",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "早点休息，别熬夜",
+        "你忙你的，不用急着回"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-c4c7861d1b",
+      "text": "其实，我这边一切都好",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "我这边一切都好"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-f920db9e27",
+      "text": "想和你一块儿去看电影",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "想和你一起去看电影"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-81fc1bdef2",
+      "text": "刚刚在忙，没看到消息，说真的",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "刚刚在忙，没看到消息"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-d54c8b5b4e",
+      "text": "我准备去泡杯茶，有点想你了",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "我准备去泡杯茶",
+        "有点想你了"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-4e01516e09",
+      "text": "等你有空再聊，而且今天想早点睡",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "等你有空再聊",
+        "今天想早点睡"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-ad4bd05b63",
+      "text": "其实，你忙你的，不用急着回",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "你忙你的，不用急着回"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-a37ccbbc1a",
+      "text": "刚刚看到一个很像你的背影，其实你吃饭了吗",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "刚刚看到一个很像你的背影",
+        "你吃饭了吗"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-63b86741ef",
+      "text": "今儿过得怎么样",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "今天过得怎么样"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-fade48a35c",
+      "text": "想问你一个没什么要紧的问题；今天有点想你",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "想问你一个没什么要紧的问题",
+        "今天有点想你"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-021b4bc5a5",
+      "text": "晚上要不要一起吃饭，刚吃完饭，在楼下走一圈",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "晚上要不要一起吃饭",
+        "刚吃完饭，在楼下走一圈"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-c97f68a69a",
+      "text": "突然有些想吃你提过的那家店",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "突然有点想吃你提过的那家店"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-35eada193d",
+      "text": "其实，刚吃完饭，在楼下走一圈",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "刚吃完饭，在楼下走一圈"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-b5dfe1ca72",
+      "text": "说起来，我一会儿就回来",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "我一会儿就回来"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-2bb7c24989",
+      "text": "有空的话，陪我说两句话，你懂吧",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "有空的话，陪我说两句话"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-214a864db7",
+      "text": "刚刚翻到我们以前的聊天",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "刚才翻到我们以前的聊天"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-87086e71d3",
+      "text": "我把今天的事记下来了，然后刚吃完饭，在楼下走一圈",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "我把今天的事记下来了",
+        "刚吃完饭，在楼下走一圈"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-0ad94efc52",
+      "text": "想问你一个没什么要紧的问题，然后有空的话，陪我说两句话",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "想问你一个没什么要紧的问题",
+        "有空的话，陪我说两句话"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-fe72e17bb9",
+      "text": "我在整理今儿拍的照片",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "我在整理今天拍的照片"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-c5605b6ae5",
+      "text": "外面天已经黑了，加上我在整理今天拍的照片",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "外面天已经黑了",
+        "我在整理今天拍的照片"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-d16563df9c",
+      "text": "今天听到一首好听的歌",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "今天听到一首很好听的歌"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-9e51bbb859",
+      "text": "我很喜欢你，还有就是忽然想跟你说句话",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "我很喜欢你",
+        "就是忽然想跟你说句话"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-1d5ed2092d",
+      "text": "今天听到一首很好听的歌，加上你那边现在几点",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "今天听到一首很好听的歌",
+        "你那边现在几点"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-a054513fd9",
+      "text": "突然想听听你的声音；你那边冷不冷",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "突然想听听你的声音",
+        "你那边冷不冷"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-5ff75b6914",
+      "text": "这周好像过得特别快，加上外面下雨了，你带伞了吗",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "这周好像过得特别快",
+        "外面下雨了，你带伞了吗"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-f2594a6513",
+      "text": "你最近睡得好吗；今天听到一首很好听的歌",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "你最近睡得好吗",
+        "今天听到一首很好听的歌"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-8657f60ef6",
+      "text": "今天没发生什么的事",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "今天没发生什么特别的事"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-b4f6bc6449",
+      "text": "忽然想到，外面下雨了，你带伞了吗",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "外面下雨了，你带伞了吗"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-f9d89bf70f",
+      "text": "你吃饭了吗，说真的",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "你吃饭了吗"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-209aa3c1b2",
+      "text": "我记得你喜欢安静一点的地方，然后刚刚看到一个很像你的背影",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "我记得你喜欢安静一点的地方",
+        "刚刚看到一个很像你的背影"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-b128e4e52c",
+      "text": "有空的话，陪我说两句话，而且我把今天的事记下来了",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "有空的话，陪我说两句话",
+        "我把今天的事记下来了"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-69986ffa09",
+      "text": "我一会儿就回来，然后刚才翻到我们以前的聊天",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "我一会儿就回来",
+        "刚才翻到我们以前的聊天"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-67f134ce4c",
+      "text": "晚上风有点凉，而且刚刚发了会儿呆",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "晚上风有点凉",
+        "刚刚发了会儿呆"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-5a274046a9",
+      "text": "今儿有点累，想早点躺下",
+      "source": "generated",
+      "method": "rewrite",
+      "from": [
+        "今天有点累，想早点躺下"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-7f6656aab9",
+      "text": "明天见，加上我把今天的事记下来了",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "明天见",
+        "我把今天的事记下来了"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-acbf0705e8",
+      "text": "明天见，今天路上看到一棵开花的树",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "明天见",
+        "今天路上看到一棵开花的树"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-40fa6ec72d",
+      "text": "我很喜欢你，顺便我在整理今天拍的照片",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "我很喜欢你",
+        "我在整理今天拍的照片"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    },
+    {
+      "id": "gen-f0c0e8085a",
+      "text": "你那边冷不冷，刚刚发了会儿呆",
+      "source": "generated",
+      "method": "concat",
+      "from": [
+        "你那边冷不冷",
+        "刚刚发了会儿呆"
+      ],
+      "at": "2026-10-31T11:12:39Z"
+    }
+  ]
+}
