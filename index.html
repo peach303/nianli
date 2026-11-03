@@ -14,9 +14,9 @@
   <meta name="theme-color" content="#F7F7F5">
 
    
-  <link rel="stylesheet" href="dist/app.v22.4.3.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="dist/app.v22.4.4.css" media="print" onload="this.media='all'">
   <script src="dist/pinyin-pro.min.js"></script>
-  <script defer src="dist/app.v22.4.3.js"></script>
+  <script defer src="dist/app.v22.4.4.js"></script>
 
   <meta name="apple-mobile-web-app-capable" content="yes">
 
@@ -247,7 +247,7 @@
 
 
 
-      var BOOT_FILES = ['dist/app.v22.4.3.css','dist/app.v22.4.3.js'];
+      var BOOT_FILES = ['dist/app.v22.4.4.css','dist/app.v22.4.4.js'];
 
 
 
@@ -1771,12 +1771,13 @@
           <div class="setting-subhead">转账（全局）</div>
           <div class="field-row">
             <label>我发转账后 TA 接收概率（%）<input type="text" min="0" max="100" step="5" id="transferRecvProb" inputmode="numeric"></label>
+            <label>我发转账后 TA 退还概率（%）<input type="text" min="0" max="100" step="5" id="transferReturnProb" inputmode="numeric"></label>
             <label>TA 主动发转账概率（%）<input type="text" min="0" max="100" step="5" id="transferSendProb" inputmode="numeric"></label>
           </div>
-          <p class="data-note">我发转账后，按「接收概率」决定 TA 过几秒收不收；填 0 就一直停在「待对方收款」。TA 主动发转账按「主动概率」在每轮聊天里掷一次，3 分钟内最多一笔；你刚发完转账的 20 秒内 TA 不会反向转。金额不再套固定档：常见几块到几百，也经常出现几千、几万甚至上亿的大额。转账说明优先取「转账说明 / 转账备注」字卡组，没有就从主字卡里挑短句，再不够用内置几句。</p>
+          <p class="data-note">我发转账后，按「接收 / 退还」决定 TA 过几秒收下还是退还；两个都没中就一直停在「待对方收款」。你收到 TA 的转账时，卡上可以选「确认收款」或「退还」。TA 主动发转账按「主动概率」在每轮聊天里掷一次，3 分钟内最多一笔；你刚发完转账的 20 秒内 TA 不会反向转。金额不再套固定档：常见几块到几百，也经常出现几千、几万甚至上亿的大额。转账说明优先取「转账说明 / 转账备注」字卡组，没有就从主字卡里挑短句，再不够用内置几句。</p>
           <div class="ap-row"><span>回复时混入「造句 / 改写」衍生卡<span style="display:block;font-size:11px;color:var(--muted)">默认关闭：主字卡只抽原始的。打开后，云端 <b>generated.json</b> 与本机新造的句子也会进入抽取池。</span></span><input type="checkbox" id="mixGenerated" style="width:18px;height:18px;flex:none;margin:0;accent-color:var(--ink)"></div>
           <div class="ap-row"><span>回复时混入「自动拾取」的字卡<span style="display:block;font-size:11px;color:var(--muted)">默认关闭：被你收进 TA 字卡库的长句只留在库里。打开后，它们也会作为主字卡被抽到。</span></span><input type="checkbox" id="mixPicked" style="width:18px;height:18px;flex:none;margin:0;accent-color:var(--ink)"></div>
-          <p class="data-note"><b>自动拾取</b>：TA 有概率把你说的长句收进自己的字卡（少于 8 字、纯表情/标点、重复句不收）；<b>自由造句</b>：TA 有概率把已有字卡改写或拼成新句再发出来（优先用云端生成的句子，离线时用本地规则）；<b>拼音回复</b>：低概率把一句回复显示成拼音（如 wo hen xi huan ni）。前三个都填 0 可关闭对应功能，出厂默认 15 / 20 / 5；转账默认 80 / 10，填 0 也会关掉接收 / 主动发。</p>
+          <p class="data-note"><b>自动拾取</b>：TA 有概率把你说的长句收进自己的字卡（少于 8 字、纯表情/标点、重复句不收）；<b>自由造句</b>：TA 有概率把已有字卡改写或拼成新句再发出来（优先用云端生成的句子，离线时用本地规则）；<b>拼音回复</b>：低概率把一句回复显示成拼音（如 wo hen xi huan ni）。前三个都填 0 可关闭对应功能，出厂默认 15 / 20 / 5；转账默认 80 / 10 / 10（接收 / 退还 / 主动发），填 0 也会关掉对应结果。</p>
           </div>
         </div>
 
