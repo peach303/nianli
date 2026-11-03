@@ -9,7 +9,7 @@
 - 许可证：MIT License
 - 项目主页：https://github.com/zh-lx/pinyin-pro
 - 本项目内的文件：`dist/pinyin-pro.min.js`（UMD 构建，浏览器全局名 `pinyinPro`）
-- 引入位置：`index.html` 中 `dist/app.v22.4.2.js` 之前
+- 引入位置：`index.html` 中 `dist/app.v22.4.3.js` 之前
 
 MIT 许可允许免费使用、修改与再分发，但需保留原作者的版权与许可声明。若之后升级或替换该库，请同步更新本文件。
 

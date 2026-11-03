@@ -14,9 +14,9 @@
   <meta name="theme-color" content="#F7F7F5">
 
    
-  <link rel="stylesheet" href="dist/app.v22.4.2.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="dist/app.v22.4.3.css" media="print" onload="this.media='all'">
   <script src="dist/pinyin-pro.min.js"></script>
-  <script defer src="dist/app.v22.4.2.js"></script>
+  <script defer src="dist/app.v22.4.3.js"></script>
 
   <meta name="apple-mobile-web-app-capable" content="yes">
 
@@ -247,7 +247,7 @@
 
 
 
-      var BOOT_FILES = ['dist/app.v22.4.2.css','dist/app.v22.4.2.js'];
+      var BOOT_FILES = ['dist/app.v22.4.3.css','dist/app.v22.4.3.js'];
 
 
 
@@ -1759,7 +1759,9 @@
           <button type="button" class="set-entry-row" id="silentEntry"><span class="set-entry-tx"><strong>主动消息管理</strong><small id="silentEntryState"></small></span><i class="set-entry-arrow" aria-hidden="true">›</i></button>
         </div>
 
-        <div class="setting-card" data-tab="notify" id="newReplyProbCard">
+        <div class="setting-card fold" data-tab="notify" data-fold="prob" id="newReplyProbCard">
+          <button type="button" class="fold-hd"><span class="fold-ti">回复 / 转账概率</span><span class="fold-sum" id="sumProb"></span><i class="fold-ar">›</i></button>
+          <div class="fold-bd">
           <div class="setting-subhead">新回复 / 转账概率（全局）</div>
           <div class="field-row">
             <label>自动拾取概率（%）<input type="text" min="0" max="100" step="5" id="pickedProb" inputmode="numeric"></label>
@@ -1775,6 +1777,7 @@
           <div class="ap-row"><span>回复时混入「造句 / 改写」衍生卡<span style="display:block;font-size:11px;color:var(--muted)">默认关闭：主字卡只抽原始的。打开后，云端 <b>generated.json</b> 与本机新造的句子也会进入抽取池。</span></span><input type="checkbox" id="mixGenerated" style="width:18px;height:18px;flex:none;margin:0;accent-color:var(--ink)"></div>
           <div class="ap-row"><span>回复时混入「自动拾取」的字卡<span style="display:block;font-size:11px;color:var(--muted)">默认关闭：被你收进 TA 字卡库的长句只留在库里。打开后，它们也会作为主字卡被抽到。</span></span><input type="checkbox" id="mixPicked" style="width:18px;height:18px;flex:none;margin:0;accent-color:var(--ink)"></div>
           <p class="data-note"><b>自动拾取</b>：TA 有概率把你说的长句收进自己的字卡（少于 8 字、纯表情/标点、重复句不收）；<b>自由造句</b>：TA 有概率把已有字卡改写或拼成新句再发出来（优先用云端生成的句子，离线时用本地规则）；<b>拼音回复</b>：低概率把一句回复显示成拼音（如 wo hen xi huan ni）。前三个都填 0 可关闭对应功能，出厂默认 15 / 20 / 5；转账默认 80 / 10，填 0 也会关掉接收 / 主动发。</p>
+          </div>
         </div>
 
          
@@ -4492,7 +4495,7 @@
         <div><div class="tf-sheet-title" id="tfTitle">转账</div><div class="tf-sheet-sub" id="tfSub">给 TA 转一笔</div></div>
         <button type="button" class="tf-close" id="transferClose" aria-label="关闭转账面板">×</button>
       </div>
-      <div class="tf-amount"><span>¥</span><input id="transferAmount" type="text" inputmode="decimal" maxlength="10" value="52.00" aria-label="转账金额"></div>
+      <div class="tf-amount"><span>¥</span><input id="transferAmount" type="text" inputmode="decimal" maxlength="20" value="52.00" aria-label="转账金额"></div>
       <div class="tf-quick" id="transferQuick" aria-label="快捷金额">
         <button type="button" data-tf-amt="5.20">5.20</button>
         <button type="button" data-tf-amt="13.14">13.14</button>
